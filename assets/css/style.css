@@ -700,7 +700,22 @@ form .field {
     font-size: 1.6rem;
   }
 }
+@media screen and (max-width: 1580px) {
+  .welcome-wrapper .text-wrapper h1{
+    font-size: 4rem;
+  }
+  .welcome-wrapper .text-wrapper h2{
+    font-size: 3rem;
+  }
+  .welcome-wrapper .text-wrapper p{
+    width: 50rem;
+    font-size: 2rem;
+  }
+}
 @media screen and (max-width: 1200px) {
+  .welcome-wrapper .text-wrapper p{
+    width: auto;
+  }
   .welcome {
     height: fit-content;
     overflow: hidden;
@@ -717,10 +732,10 @@ form .field {
     width: 100%;
   }
   .welcome-wrapper .text-wrapper h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
   .welcome-wrapper .text-wrapper h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .welcome-wrapper .text-wrapper p {
     font-size: 1.8rem;
