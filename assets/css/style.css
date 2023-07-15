@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Julee&family=Marck+Script&family=Mulish:wght@400;500;600;700;800;900;1000&family=Open+Sans:wght@400;500;600;700;800&family=Permanent+Marker&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&family=Satisfy&family=Unbounded:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Julee&family=Marck+Script&family=Mulish:wght@400;500;600;700;800;900;1000&family=Open+Sans:wght@400;500;600;700;800&family=Permanent+Marker&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&family=Satisfy&family=Unbounded:wght@400;500;600;700;800;900&display=swap");
 /*
 font-family: 'Julee', cursive;
 font-family: 'Marck Script', cursive;
@@ -34,7 +34,7 @@ font-family: 'Unbounded', cursive;
   --grad4-ini: var(--clr-g3-1) 5%, var(--clr-g3-2) 45%;
 
   /*  */
-  --grad-1: linear-gradient(135deg, #00dade , #fb00ff);
+  --grad-1: linear-gradient(135deg, #00dade, #fb00ff);
   --grad-2: linear-gradient(-135deg, #003536, #510052);
   --grad-3: linear-gradient(67.2deg, var(--grad3-ini));
   --grad-4: radial-gradient(
@@ -165,7 +165,6 @@ section {
 }
 .welcome-wrapper .text-wrapper {
   padding-inline: 1.6rem;
-  
 }
 .welcome-wrapper .text-wrapper h2 {
   font-size: 3.6rem;
@@ -481,23 +480,23 @@ section {
   right: 0;
   width: 5rem;
   height: 5rem;
-  background: linear-gradient(73deg, #f7ce68d7 15%, #937C3FD7 87%)
+  background: linear-gradient(73deg, #f7ce68d7 15%, #937c3fd7 87%);
 }
-.ele-wrapper .head-2{
+.ele-wrapper .head-2 {
   padding-block: 2rem;
   font-size: 2.4rem;
-  font-family: 'Julee', cursive;
+  font-family: "Julee", cursive;
   letter-spacing: 0.25rem;
   font-style: italic;
 }
-.ele-wrapper .social{
+.ele-wrapper .social {
   width: 100%;
   height: 7rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.social a{
+.social a {
   position: relative;
   text-decoration: none;
   aspect-ratio: 1/1;
@@ -508,15 +507,14 @@ section {
   align-items: center;
   justify-content: center;
 }
-.social a i{
+.social a i {
   font-size: 4.5rem;
-  color: #fff
+  color: #fff;
 }
 .social a:hover {
-  box-shadow: 0 0 5px var(--clr-g3-1),
-    1px 1px 5px var(--clr-g3-2);
+  box-shadow: 0 0 5px var(--clr-g3-1), 1px 1px 5px var(--clr-g3-2);
 }
-.social a:hover > i{
+.social a:hover > i {
   font-size: 4.5rem;
   background: var(--grad-1);
   -webkit-background-clip: text;
@@ -537,7 +535,7 @@ section {
 .note h1 {
   font-size: 3.5rem;
   padding-bottom: 2rem;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   color: var(--text-clr-1);
 }
 .note p {
@@ -546,7 +544,7 @@ section {
   letter-spacing: 0.15rem;
   font-style: italic;
   word-spacing: 0.2rem;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
 }
 .note .imag {
   position: relative;
@@ -692,7 +690,7 @@ form .field {
   -webkit-text-fill-color: var(--bg-clr-1);
   background: transparent;
 }
-.footer{
+.footer {
   padding: 0;
   height: 4rem;
   width: 100%;
@@ -701,7 +699,7 @@ form .field {
   align-items: center;
   justify-content: center;
 }
-.footer footer{
+.footer footer {
   background: var(--hov-grad);
   font-size: 2rem;
   font-weight: 700;
@@ -717,19 +715,19 @@ form .field {
   }
 }
 @media screen and (max-width: 1580px) {
-  .welcome-wrapper .text-wrapper h1{
+  .welcome-wrapper .text-wrapper h1 {
     font-size: 4rem;
   }
-  .welcome-wrapper .text-wrapper h2{
+  .welcome-wrapper .text-wrapper h2 {
     font-size: 3rem;
   }
-  .welcome-wrapper .text-wrapper p{
+  .welcome-wrapper .text-wrapper p {
     width: 50rem;
     font-size: 2rem;
   }
 }
 @media screen and (max-width: 1200px) {
-  .welcome-wrapper .text-wrapper p{
+  .welcome-wrapper .text-wrapper p {
     width: auto;
   }
   .welcome {
@@ -814,9 +812,8 @@ form .field {
   .contact-wrapper .ele-wrapper {
     width: 100%;
   }
-  .note h1{
+  .note h1 {
     font-size: 3rem;
-
   }
 }
 @media screen and (max-width: 1040px) {
@@ -853,15 +850,16 @@ form .field {
     padding-bottom: 2rem;
   }
   .proj-links .btn1 i,
-  .proj-links .btn2 i{
+  .proj-links .btn2 i {
     font-size: 1.5rem;
   }
-
 }
 @media screen and (max-width: 850px) {
-  body,html{
+  body,
+  html {
     overflow-x: hidden;
   }
+
   .welcome {
     height: 100%;
     overflow: hidden;
@@ -954,10 +952,19 @@ form .field {
   .form-wrapper h1 {
     font-size: 3rem;
   }
+ 
   .field label {
-    font-size: 1rem;
+    font-size: 1.9rem;
   }
   .form-wrapper .frm-sub {
     padding: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .field{
+    flex-direction: column;
+  }
+  .head {
+    font-size: 5rem;
   }
 }
