@@ -165,7 +165,6 @@ section {
 }
 .welcome-wrapper .text-wrapper {
   padding-inline: 1.6rem;
-  width: fit-content;
   
 }
 .welcome-wrapper .text-wrapper h2 {
@@ -195,7 +194,6 @@ section {
   font-weight: 600;
   text-align: justify;
   color: #cacaca;
-  width:  65ch;
 }
 /* about Section */
 .about {
