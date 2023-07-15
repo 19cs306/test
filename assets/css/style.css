@@ -692,6 +692,22 @@ form .field {
   -webkit-text-fill-color: var(--bg-clr-1);
   background: transparent;
 }
+.footer{
+  padding: 0;
+  height: 4rem;
+  width: 100%;
+  background: #282828;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer footer{
+  background: var(--hov-grad);
+  font-size: 2rem;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @media screen and (max-width: 1580px) {
   .proj-item .text-wrapper h1 {
     position: relative;
@@ -843,6 +859,9 @@ form .field {
 
 }
 @media screen and (max-width: 850px) {
+  body,html{
+    overflow-x: hidden;
+  }
   .welcome {
     height: 100%;
     overflow: hidden;
