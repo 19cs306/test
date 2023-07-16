@@ -40,11 +40,13 @@
   height: auto;
   width: 100%;
   left: 30%;
-  bottom: 12.3%;
+  bottom: 12.9%;
   aspect-ratio: 1/1;
   z-index: 1;
   transform: skew(-2.5deg);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 10% 80%);
+  /* clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 10% 80%); */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 10% 79%);
+  
 }
 
 .triangle {

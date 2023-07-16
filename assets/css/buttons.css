@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   height: fit-content;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: rgb(102, 102, 102);
   animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;

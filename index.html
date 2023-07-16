@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/Images/logo.png">
     <title>Shushant Rishav</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/model.css">
@@ -18,6 +19,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
+
 <body>
     <nav class="navbar" id="navbar">
         <div class="nav-container">
@@ -469,45 +471,13 @@
 
     <script src="./assets/js/Canvas.js"></script>
     <script src="./assets/js/nav.js"></script>
-    <script src="./assets/js/script.js"></script>
+    
     <script src="./assets/js/jquery.svg3dtagcloud.min.js"></script>
     <script src="./assets/js/tagcloud.js"></script>
-
-    <script>
-        // Create a function to handle the intersection callback
-        function handleIntersection(entries, observer) {
-            entries.forEach((entry) => {
-                const sectionId = entry.target.getAttribute("id");
-                const navLink = document.querySelector(`.nav-links li a[href="#${sectionId}"]`);
-
-                if (entry.isIntersecting) {
-                    // Add the "active" class to the corresponding nav link
-                    navLink.classList.add("active");
-                } else {
-                    // Remove the "active" class from the nav link
-                    navLink.classList.remove("active");
-                }
-            });
-        }
-
-        // Create the Intersection Observer instance
-        const observer = new IntersectionObserver(handleIntersection, {
-            root: null, // Use the viewport as the root element
-            rootMargin: "-50% 0px", // Trigger when the top of the section is near the top of the display
-            threshold: 0, // Trigger when the section is fully visible
-        });
-
-        // Observe each section
-        document.querySelectorAll("section").forEach((section) => {
-            observer.observe(section);
-        });
-
-
-    </script>
+    <script src="./assets/js/script.js"></script>
     <script>
         AOS.init();
     </script>
-    <script src="./assets/js/"></script>
 
 </body>
 

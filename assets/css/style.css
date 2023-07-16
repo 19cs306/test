@@ -74,7 +74,6 @@ body {
   min-height: 100vh;
   width: 100%;
   background: var(--bg-clr-2) 100%;
-  overflow-x: hidden;
 }
 section {
   height: 100vh;
@@ -240,7 +239,7 @@ section {
   background: var(--grad-2);
   padding: 0.5rem;
   position: relative;
-  border-radius: 50%;
+  border-radius: 050%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -251,6 +250,7 @@ section {
   border-radius: 50%;
   width: 100%;
 }
+
 .about-wrapper .text-wrapper {
   display: flex;
   flex-direction: column;
@@ -855,11 +855,6 @@ form .field {
   }
 }
 @media screen and (max-width: 850px) {
-  body,
-  html {
-    overflow-x: hidden;
-  }
-
   .welcome {
     height: 100%;
     overflow: hidden;
@@ -941,13 +936,16 @@ form .field {
     padding: 0;
   }
   .proj-img {
-    width: 100%;
+    width: 80%;
   }
   .proj-item .text-wrapper {
     display: none;
   }
   .contact-wrapper .ele-wrapper {
     width: 100%;
+  }
+  .ele-wrapper .note {
+    width: 80%;
   }
   .form-wrapper h1 {
     font-size: 3rem;
@@ -966,5 +964,8 @@ form .field {
   }
   .head {
     font-size: 5rem;
+  }
+  .proj-img {
+    width: 100%;
   }
 }
